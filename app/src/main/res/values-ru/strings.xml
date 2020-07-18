@@ -1,8 +1,9 @@
 <resources>
     <string name="app_name">LoftMoney</string>
     <string name="title_activity_main_screen">MainScreen</string>
-    <string name="tab_text_1">Tab 1</string>
-    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_1">Расходы</string>
+    <string name="tab_text_2">Доходы</string>
+    <string name="tab_text_3">Баланс</string>
     <string name="But_text">ВОЙТИ</string>
     <string name="act_name">Учёт бюджета</string>
     <string name="title_activity_additem">FullscreenActivity</string>
