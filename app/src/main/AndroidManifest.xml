@@ -12,13 +12,19 @@
             android:name=".Additem"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_additem"
-            android:theme="@style/FullscreenTheme"></activity>
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme">
+
+        </activity>
         <activity
             android:name=".MainScreen"
             android:label="@string/title_activity_main_screen"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"></activity>
-        <activity android:name=".WelcomeScreen">
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+
+        </activity>
+        <activity android:name=".WelcomeScreen" android:screenOrientation="portrait">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

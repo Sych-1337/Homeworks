@@ -3,11 +3,11 @@
     <string name="title_activity_main_screen">MainScreen</string>
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>
-    <string name="But_text">ENTER</string>
-    <string name="act_name">Budget accounting</string>
+    <string name="But_text">ВОЙТИ</string>
+    <string name="act_name">Учёт бюджета</string>
     <string name="title_activity_additem">FullscreenActivity</string>
-    <string name="nazv">Name</string>
-    <string name="cena">Price</string>
-    <string name="add_but">✓ Add</string>
+    <string name="nazv">Название</string>
+    <string name="cena">Цена</string>
+    <string name="add_but">✓ ДОБАВИТЬ</string>
 
 </resources>
