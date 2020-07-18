@@ -9,13 +9,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
         <activity
+            android:name=".Additem"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_additem"
+            android:theme="@style/FullscreenTheme"></activity>
+        <activity
             android:name=".MainScreen"
             android:label="@string/title_activity_main_screen"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
             android:screenOrientation="portrait"
-            >
-
-        </activity>
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"></activity>
         <activity android:name=".WelcomeScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
