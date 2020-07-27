@@ -8,6 +8,9 @@
     <color name="apple_green">#7ed321</color>
     <color name="white_three">#eaeaea</color>
     <color name="black_overlay">#66000000</color>
+    <color name="expenceColor">#4a90e2</color>
+    <color name="incomeColor">#7ed321</color>
+    <color name="dividerColor">#FAFAFA</color>
 
 
 </resources>
