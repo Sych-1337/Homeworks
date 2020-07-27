@@ -27,16 +27,16 @@ public class BudgetFragment extends Fragment {
     ) {
         View view = inflater.inflate(R.layout.cell_money, null);
 
-        Button callAddButton = view.findViewById(R.id.call_add_item_activity);
+       /* Button callAddButton = view.findViewById(R.id.call_add_item_activity);
         callAddButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(final View v) {
                 startActivityForResult(new Intent(getActivity(), Additem.class),
                         REQUEST_CODE);
             }
-        });
+        });*/
 
-        RecyclerView recyclerView = view.findViewById(R.id.budget_item_list);
+        RecyclerView recyclerView = view.findViewById(R.id.item_list);
 
         mAdapter = new ItemsAdapter();
         recyclerView.setAdapter(mAdapter);
