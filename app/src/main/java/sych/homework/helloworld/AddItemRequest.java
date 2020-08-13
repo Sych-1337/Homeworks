@@ -1,22 +1,15 @@
 package sych.homework.helloworld;
 
-public class Item {
+class AddItemRequest {
 
-    private int id;
     private String name;
+    private String type;
     private int price;
 
-    public Item(final String name, final int price) {
+    public AddItemRequest(final String name, final String type, final int price) {
         this.name = name;
+        this.type = type;
         this.price = price;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(final int id) {
-        this.id = id;
     }
 
     public String getName() {
@@ -25,6 +18,14 @@ public class Item {
 
     public void setName(final String name) {
         this.name = name;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(final String type) {
+        this.type = type;
     }
 
     public int getPrice() {

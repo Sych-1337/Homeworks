@@ -2,35 +2,25 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="sych.homework.helloworld">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
-        android:allowBackup="true"
+        android:name=".LoftApp"
+        android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
-        <activity
-            android:name=".Additem"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_additem"
-            android:screenOrientation="portrait"
-            android:theme="@style/FullscreenTheme">
-
-        </activity>
-        <activity
-            android:name=".MainScreen"
-            android:label="@string/title_activity_main_screen"
-            android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
-
-        </activity>
-        <activity android:name=".WelcomeScreen" android:screenOrientation="portrait">
-
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="false">
+        <activity android:name=".AuthActivity" android:theme="@style/Theme.MaterialComponents.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
 
+        <activity android:name=".MainActivity" android:theme="@style/AppTheme"/>
+        <activity android:name=".AddItemActivity" android:theme="@style/AddItemTheme" />
+
+    </application>
 </manifest>
