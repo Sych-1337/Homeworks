@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/balance_swipe_refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="37dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="14sp"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="normal"
+                android:textColor="@color/medium_grey"
+                android:gravity="end"
+                android:text="@string/finances"
+
+                />
+
+            <TextView
+                android:id="@+id/total_finances"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="37dp"
+                android:textSize="48sp"
+                android:fontFamily="sans-serif-medium"
+                android:textStyle="normal"
+                android:textColor="@color/pale_orange"
+                android:gravity="end"
+                tools:text="67000₽"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/white_six"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:paddingBottom="26dp"
+                    android:paddingTop="26dp"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:fontFamily="sans-serif-light"
+                        android:textStyle="normal"
+                        android:textColor="@color/medium_grey"
+                        android:gravity="end"
+                        android:text="@string/expences"
+                        />
+
+                    <TextView
+                        android:id="@+id/my_expences"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:fontFamily="sans-serif-medium"
+                        android:textStyle="normal"
+                        android:textColor="@color/dark_sky_blue"
+                        android:gravity="end"
+                        tools:text="5400₽"
+                        />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/white_six"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:paddingBottom="26dp"
+                    android:paddingTop="26dp"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:fontFamily="sans-serif-light"
+                        android:textStyle="normal"
+                        android:textColor="@color/medium_grey"
+                        android:gravity="end"
+                        android:text="@string/income"
+                        />
+
+                    <TextView
+                        android:id="@+id/my_income"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:fontFamily="sans-serif-medium"
+                        android:textStyle="normal"
+                        android:textColor="@color/apple_green"
+                        android:gravity="end"
+                        tools:text="5400₽"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/white_six"/>
+
+            <sych.homework.helloworld.DiagramView
+                android:id="@+id/diagram_view"
+                android:layout_marginTop="36dp"
+                android:layout_marginBottom="56dp"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"/>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

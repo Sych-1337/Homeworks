@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    >
+
+    <ImageView
+        android:layout_width="136dp"
+        android:layout_height="180dp"
+        android:src="@drawable/icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="32dp"
+        style="@style/TextStyle"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/enter_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="normal"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/enter"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        app:cornerRadius="24dp"
+        app:backgroundTint="@android:color/white"
+        />
+
+</LinearLayout>
