@@ -19,3 +19,9 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+-keep class sych.homework.helloworld.Item {*;}
+-keep class sych.homework.helloworld.Status {*;}
+-keep class sych.homework.helloworld.AddItemRequest {*;}
+-keep class sych.homework.helloworld.BalanceResponce {*;}
+-keep class sych.homework.helloworld.AuthActivity {*;}
